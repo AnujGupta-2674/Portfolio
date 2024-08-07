@@ -1,0 +1,39 @@
+<% layout('/layout/boilerplate') -%>
+
+    <body>
+        <div class="container mt-5">
+            <h1>Contact Me</h1>
+
+            <form method="POST" action="/about" novalidate class="needs-validation">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Enter Name</label>
+                    <input type="text" class="form-control" id="name" name="contact[name]" placeholder="Enter Name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="orgName" class="form-label">Enter Organisation Name</label>
+                    <input type="text" class="form-control" id="orgName" name="contact[orgName]"
+                        placeholder="Enter Company Name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Enter Email</label>
+                    <input type="email" class="form-control" id="email" name="contact[email]" placeholder="Enter Email">
+                </div>
+
+                <div class="mb-3">
+                    <label for="phone_no" class="form-label">Enter Phone Number</label>
+                    <input type="number" class="form-control" id="phone_no" name="contact[phone_no]"
+                        placeholder="Enter Phone Number">
+                </div>
+
+                <div class="mb-3">
+                    <label for="address" class="form-label">Enter Address</label>
+                    <textarea class="form-control" id="address" name="contact[address]" placeholder="Enter Address"
+                        rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </body>

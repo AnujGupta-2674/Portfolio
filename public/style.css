@@ -1,0 +1,105 @@
+/* Home Page Styling */
+.container {
+    margin-top: 20px;
+}
+
+.img-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-box img {
+    border-radius: 50%;
+    max-width: 400px;
+    /* Increased from 150px to 200px */
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+/* Skills Page Styling */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.skills-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill-item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #343a40;
+    /* mix-blend-mode: color-burn; */
+    object-fit: contain;
+}
+
+/*Project Page Styling*/
+.project {
+    background-color: #f8f9fa !important;
+}
+
+.project {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+    color: #343a40;
+}
+
+.project p {
+    font-size: 1.1em;
+}
+
+.project a:hover {
+    color: #0056b3;
+}
+
+.project a {
+    text-decoration: none !important;
+    color: black;
+}
+
+/* Footer Styling */
+.f-info {
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials {
+    margin-bottom: 1rem;
+}
+
+.f-info-socials i {
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+.f-info-links {
+    margin-top: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
