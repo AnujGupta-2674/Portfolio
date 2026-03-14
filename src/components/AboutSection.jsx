@@ -2,7 +2,7 @@ import { CheckCircle, Code, Database, Server } from "lucide-react";
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-4 relative">
+    <section id="about" className="py-24 px-4 relative pt-16">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About and Work Experience
@@ -14,7 +14,7 @@ export const AboutSection = () => {
               <h3 className="text-2xl font-semibold mb-4">
                 <span className="text-primary">About Me</span>
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground text-left">
                 Full Stack MERN Developer with production experience building scalable REST APIs, optimizing MongoDB aggregation pipelines and implementing real-time features using Socket.IO and BullMQ. Currently contributing to
                 live platform development in Agile teams, focusing on backend architecture, performance and reliable frontend
                 solutions.
@@ -40,19 +40,19 @@ export const AboutSection = () => {
                   <ul className="text-muted-foreground space-y-1">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Developed reusable React components and integrated them with RESTful backend APIs, contributing to data validation and error handling for smoother data flow across the application.</span>
+                      <span className="text-left">Developed reusable React components and integrated them with RESTful backend APIs, contributing to data validation and error handling for smoother data flow across the application.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Designed and maintained RESTful APIs following MVC architecture and HTTP best practices.</span>
+                      <span className="text-left">Designed and maintained RESTful APIs following MVC architecture and HTTP best practices.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Optimized MongoDB aggregation pipelines to support complex filtering queries and improve performance for high-traffic endpoints.</span>
+                      <span className="text-left">Optimized MongoDB aggregation pipelines to support complex filtering queries and improve performance for high-traffic endpoints.</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Built a real-time notification pipeline using BullMQ, Redis, Firebase FCM and Socket.IO as part of the core backend team.</span>
+                      <span className="text-left">Built a real-time notification pipeline using BullMQ, Redis, Firebase FCM and Socket.IO as part of the core backend team.</span>
                     </li>
                   </ul>
                 </div>
@@ -70,15 +70,15 @@ export const AboutSection = () => {
                   <ul className="text-muted-foreground space-y-1">
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Mentored 5000+ students learning MERN Stack</span>
+                      <span className="text-left">Mentored 5000+ students learning MERN Stack</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Resolved 600+ technical doubts</span>
+                      <span className="text-left">Resolved 600+ technical doubts</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Guided students in debugging full-stack applications</span>
+                      <span className="text-left">Guided students in debugging full-stack applications</span>
                     </li>
                   </ul>
                 </div>
@@ -90,7 +90,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="/Anuj's_Resume.pdf"
+                href="/Anuj's Resume.pdf"
                 download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
